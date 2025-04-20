@@ -1,0 +1,12 @@
+/* [project]/src/component/Card/card.css [app-client] (css) */
+.card-shadow {
+  padding: 12px 12px 0;
+  box-shadow: 5px 5px 10px #d1d9e6, -5px -5px 10px #fff;
+}
+
+.card-sm-text {
+  font-size: 12px;
+}
+
+
+/*# sourceMappingURL=src_component_Card_card_a74a8ed5.css.map*/

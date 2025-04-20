@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #ffffff;
+    --foreground: #ededed;
+  }
+}
+
+@media (width >= 96rem) {
+  .container {
+      max-width: 80rem;
+  }
+}
+h3{
+  font-size: 24px;
+}
+p {
+  font-size: 14px;
+  font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+  line-height: 1.625;
+}
+/* button{
+  font-size: 12px;
+  color: white;
+  background-color: #171717;
+} */
+
+.shadow{
+  border-radius: .75rem; 
+  box-shadow: 5px 5px 10px #d1d9e6, -5px -5px 10px #fff;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;;
+}

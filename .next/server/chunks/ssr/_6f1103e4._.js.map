@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://C%3A/reactTestData/portfolio/src/app/layout.tsx"],"sourcesContent":["import Sidebar from \"../components/Sidebar\"\nimport \"../app/globals.css\"; // Optional if you have global styles\n\nexport const metadata = {\n  title: \"My Portfolio\",\n  description: \"Built with Next.js + Tailwind\",\n};\n\nexport default function RootLayout({ children }: { children: React.ReactNode }) {\n  return (\n    <html lang=\"en\">\n      <body className=\"flex\">\n        <Sidebar />\n        <main className=\"ml-64 p-8 w-full\">{children}</main>\n      </body>\n    </html>\n  );\n}"],"names":[],"mappings":";;;;;;;;;;;;;AAGO,MAAM,WAAW;IACtB,OAAO;IACP,aAAa;AACf;AAEe,SAAS,WAAW,EAAE,QAAQ,EAAiC;IAC5E,qBACE,8OAAC;QAAK,MAAK;kBACT,cAAA,8OAAC;YAAK,WAAU;;8BACd,8OAAC;;;;;8BACD,8OAAC;oBAAK,WAAU;8BAAoB;;;;;;;;;;;;;;;;;AAI5C","debugId":null}},
+    {"offset": {"line": 60, "column": 0}, "map": {"version":3,"sources":["file://C%3A/reactTestData/portfolio/node_modules/next/src/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.ts"],"sourcesContent":["module.exports = require('../../module.compiled').vendored[\n  'react-rsc'\n].ReactJsxDevRuntime\n"],"names":["module","exports","require","vendored","ReactJsxDevRuntime"],"mappings":";AAAAA,OAAOC,OAAO,GAAGC,QAAQ,4HAAyBC,QAAQ,CACxD,YACD,CAACC,kBAAkB","ignoreList":[0],"debugId":null}}]
+}

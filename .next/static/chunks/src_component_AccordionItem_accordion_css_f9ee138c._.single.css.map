@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/component/AccordionItem/accordion.css"],"sourcesContent":["/* .accordion-box-shadow{\r\n    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;\r\n} */\r\n\r\n.accodion-p{\r\n    padding: 0 25px 0 36px;\r\n}\r\n"],"names":[],"mappings":"AAIA"}}]
+}

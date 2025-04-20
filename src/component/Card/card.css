@@ -1,0 +1,9 @@
+.card-shadow{
+    box-shadow: 5px 5px 10px #d1d9e6, -5px -5px 10px #ffffff;
+    padding: 12px 12px 0px 12px;
+    border-radius: .75rem;
+}
+
+.card-sm-text{
+    font-size: 12px;
+}

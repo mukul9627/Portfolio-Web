@@ -1,0 +1,19 @@
+/* [project]/src/component/Card/card.css [app-client] (css) */
+.card-shadow {
+  border-radius: .75rem;
+  padding: 12px 12px 0;
+  box-shadow: 5px 5px 10px #d1d9e6, -5px -5px 10px #fff;
+}
+
+.card-sm-text {
+  font-size: 12px;
+}
+
+
+/* [project]/src/component/AccordionItem/accordion.css [app-client] (css) */
+.accodion-p {
+  padding: 0 25px 0 36px;
+}
+
+
+/*# sourceMappingURL=src_component_bb4ae14c._.css.map*/

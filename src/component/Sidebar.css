@@ -1,0 +1,26 @@
+.sidebar-aside{
+    padding-left: 11rem;
+}
+
+.sidebar-aside nav{
+    align-items: center;
+    height: 95vh;
+    /* border: 1px solid black; */
+    gap: 3rem;
+    border-radius: 18px;
+    background-color: rgb(240 242 245);
+    color: black;
+    box-shadow: 5px 5px 10px #d1d9e6, -5px -5px 10px #ffffff;
+    padding: 15px 0 0 0;
+
+}
+
+.sidebar-link{
+    border-radius: 17px;
+    padding: 3px;
+    box-shadow: 5px 5px 10px #d1d9e6, -5px -5px 10px #fff;
+}
+
+.sidebar-aside .sidebar-link{
+    font-size: 1rem;
+}
