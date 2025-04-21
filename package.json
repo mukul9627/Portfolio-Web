@@ -12,8 +12,10 @@
     "date-fns": "^4.1.0",
     "next": "15.3.0",
     "react": "^19.0.0",
+    "react-calendar-heatmap": "^1.10.0",
     "react-dom": "^19.0.0",
-    "react-icons": "^5.5.0"
+    "react-icons": "^5.5.0",
+    "react-tooltip": "^5.28.1"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
