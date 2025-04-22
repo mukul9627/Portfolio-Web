@@ -1,7 +1,6 @@
 /* [project]/src/component/Card/card.css [app-client] (css) */
 .card-shadow {
   border-radius: .75rem;
-  padding: 12px 12px 0;
   box-shadow: 5px 5px 10px #d1d9e6, -5px -5px 10px #fff;
 }
 

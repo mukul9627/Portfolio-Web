@@ -12,7 +12,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en">
       <body className="flex">
         <Sidebar />
-        <main className="ml-64 p-8 w-full">{children}</main>
+        <main className="ml-64 p-8 pl-[0rem] pt-[0rem] w-full">{children}</main>
       </body>
     </html>
   );
