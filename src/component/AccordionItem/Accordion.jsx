@@ -142,7 +142,7 @@ const Accordion = () => {
   ];
 
   return (
-    <div className="shadow accodion-p" id="accordion-collapse">
+    <div className="accodion-p" id="accordion-collapse">
       {items.map((item, idx) => (
         <AccordionItem
           key={idx}

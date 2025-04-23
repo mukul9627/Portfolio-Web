@@ -133,7 +133,7 @@ const Card: React.FC<CardProps> = ({ name, description, buttonLink }) => {
         </svg>
         Projects
       </h2>
-      <div className="p-4 rounded-lg bg-white h-auto min-h-[9.5rem]">
+      <div className="p-4 rounded-lg bg-white h-auto shadow min-h-[9.5rem]">
         <Accordion />
       </div>
     </div>
