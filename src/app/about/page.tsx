@@ -1,5 +1,15 @@
-// src/app/about/page.tsx
-export default function AboutPage() {
-    return <h1 className="text-2xl">About Me</h1>;
-  }
+import React from 'react'
+import Aboutcomp from '@/component/Aboutcomp/Aboutcomp'
+
+const page = () => {
+  return (
+    <div>
+      <Aboutcomp />
+      </div>
+  )
+}
+
+export default page
   
+
+
