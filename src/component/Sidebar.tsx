@@ -7,13 +7,13 @@ import { HiOutlineViewGrid } from "react-icons/hi";
 
 const Sidebar = () => {
   return (
-    <aside className="h-screen w-64 bg-white text-white fixed top-0 left-0 p-6 pr-[0rem] space-y-6 sidebar-aside">
-      <nav className="flex flex-col gap-4">
+    <aside className="fixed bottom-0 left-0 w-full h-16 bg-white text-black flex justify-around items-center lg:flex-col lg:justify-start lg:h-screen lg:w-64 lg:top-0 lg:bottom-auto p-4 space-y-0 lg:space-y-6 sidebar-aside shadow-inner lg:shadow-none">
+      <nav className="flex w-full justify-around lg:flex-col lg:gap-4">
         <Link href="/" className="hover:text-blue-400 flex items-center gap-2 sidebar-link">
           <FaHome /> 
         </Link>
         <Link href="/Home" className="hover:text-blue-400 flex items-center gap-2 sidebar-link">
-        <HiOutlineViewGrid />
+          <HiOutlineViewGrid />
         </Link>
         <Link href="/resume" className="hover:text-blue-400 flex items-center gap-2 sidebar-link">
           <FaFileAlt /> 
@@ -31,5 +31,6 @@ const Sidebar = () => {
     </aside>
   );
 };
+
 
 export default Sidebar;

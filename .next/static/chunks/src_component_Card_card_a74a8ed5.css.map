@@ -2,5 +2,5 @@
   "version": 3,
   "sources": [],
   "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file://C%3A/reactTestData/portfolio/src/component/Card/card.css"],"sourcesContent":[".card-shadow{\r\n    box-shadow: 5px 5px 10px #d1d9e6, -5px -5px 10px #ffffff;\r\n    padding: 12px 12px 0px 12px;\r\n}\r\n\r\n.card-sm-text{\r\n    font-size: 12px;\r\n}"],"names":[],"mappings":"AAAA;;;;;AAKA","debugId":null}}]
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file://D%3A/OnlyMukul/portfolio/src/component/Card/card.css"],"sourcesContent":[".card-shadow{\r\n    box-shadow: 5px 5px 10px #d1d9e6, -5px -5px 10px #ffffff;\r\n    /* padding: 12px 12px 0px 12px; */\r\n    border-radius: .75rem;\r\n}\r\n\r\n.card-sm-text{\r\n    font-size: 12px;\r\n}\r\n"],"names":[],"mappings":"AAAA;;;;;AAMA","debugId":null}}]
 }
