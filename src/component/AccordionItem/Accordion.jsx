@@ -1,13 +1,13 @@
 import { useState } from "react";
-import "@/component/AccordionItem/accordion.css"
+import "@/component/AccordionItem/accordion.css";
 
 const AccordionItem = ({ title, content, index, isOpen, toggleOpen }) => (
   <div>
     <h2>
-      <button 
+      <button
         type="button"
         onClick={() => toggleOpen(index)}
-        className={`flex items-center justify-between w-full p-5 font-medium text-Black-500   dark:text-gray-900 hover:bg-gray-100  gap-3 ${
+        className={`flex text-left items-center justify-between w-full p-5 font-medium text-Black-500   dark:text-gray-900 hover:bg-gray-100  gap-3 ${
           index === 0 ? "rounded-t-xl" : ""
         }`}
         aria-expanded={isOpen}
@@ -32,10 +32,7 @@ const AccordionItem = ({ title, content, index, isOpen, toggleOpen }) => (
           />
         </svg>
       </button>
-      
     </h2>
-    {/* <hr className="border border-gray-300 w-[31rem] mx-auto" /> */}
-
     <div
       id={`accordion-body-${index}`}
       className={`${isOpen ? "block" : "hidden"}`}
@@ -49,11 +46,9 @@ const AccordionItem = ({ title, content, index, isOpen, toggleOpen }) => (
 
 const Accordion = () => {
   const [openIndex, setOpenIndex] = useState(0);
-
   const toggleOpen = (index) => {
     setOpenIndex(openIndex === index ? null : index);
   };
-
   const items = [
     {
       title: "What is Flowbite?",
@@ -75,7 +70,6 @@ const Accordion = () => {
             and start developing websites even faster with components on top of
             Tailwind CSS.
           </p>
-         
         </>
       ),
     },

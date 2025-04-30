@@ -1,28 +1,4 @@
 /* [project]/src/component/Sidebar.css [app-client] (css) */
-.sidebar-aside {
-  padding-top: 2.5rem;
-  padding-left: 11rem;
-}
 
-.sidebar-aside nav {
-  color: #000;
-  background-color: #f0f2f5;
-  border-radius: 18px;
-  align-items: center;
-  gap: 3rem;
-  height: 95vh;
-  padding: 15px 0 0;
-  box-shadow: 5px 5px 10px #d1d9e6, -5px -5px 10px #fff;
-}
-
-.sidebar-link {
-  border-radius: 17px;
-  padding: 3px;
-  box-shadow: 5px 5px 10px #d1d9e6, -5px -5px 10px #fff;
-}
-
-.sidebar-aside .sidebar-link {
-  font-size: 1rem;
-}
 
 /*# sourceMappingURL=src_component_Sidebar_css_f9ee138c._.single.css.map*/

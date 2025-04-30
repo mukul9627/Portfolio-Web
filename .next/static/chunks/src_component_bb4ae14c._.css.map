@@ -3,5 +3,5 @@
   "sources": [],
   "sections": [
     {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file://D%3A/OnlyMukul/portfolio/src/component/Card/card.css"],"sourcesContent":[".card-shadow{\r\n    box-shadow: 5px 5px 10px #d1d9e6, -5px -5px 10px #ffffff;\r\n    /* padding: 12px 12px 0px 12px; */\r\n    border-radius: .75rem;\r\n}\r\n\r\n.card-sm-text{\r\n    font-size: 12px;\r\n}\r\n"],"names":[],"mappings":"AAAA;;;;;AAMA","debugId":null}},
-    {"offset": {"line": 12, "column": 0}, "map": {"version":3,"sources":["file://D%3A/OnlyMukul/portfolio/src/component/AccordionItem/accordion.css"],"sourcesContent":["/* .accordion-box-shadow{\r\n    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;\r\n} */\r\n\r\n.accodion-p{\r\n    padding: 0 25px 0 36px;\r\n}\r\n"],"names":[],"mappings":"AAIA","debugId":null}}]
+    {"offset": {"line": 12, "column": 0}, "map": {"version":3,"sources":["file://D%3A/OnlyMukul/portfolio/src/component/AccordionItem/accordion.css"],"sourcesContent":["/* .accordion-box-shadow{\r\n    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;\r\n} */\r\n\r\n/* .accodion-p{\r\n    padding: 0 25px 0 36px;\r\n} */\r\n"],"names":[],"mappings":"","debugId":null}}]
 }
