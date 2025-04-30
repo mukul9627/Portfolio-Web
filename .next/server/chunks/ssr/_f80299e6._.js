@@ -71,12 +71,12 @@ const AccordionItem = ({ title, content, index, isOpen, toggleOpen })=>/*#__PURE
                     children: content
                 }, void 0, false, {
                     fileName: "[project]/src/component/AccordionItem/Accordion.jsx",
-                    lineNumber: 43,
+                    lineNumber: 40,
                     columnNumber: 7
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/component/AccordionItem/Accordion.jsx",
-                lineNumber: 39,
+                lineNumber: 36,
                 columnNumber: 5
             }, this)
         ]
@@ -100,7 +100,7 @@ const Accordion = ()=>{
                         children: "Flowbite is an open-source library of interactive components built on top of Tailwind CSS including buttons, dropdowns, modals, navbars, and more."
                     }, void 0, false, {
                         fileName: "[project]/src/component/AccordionItem/Accordion.jsx",
-                        lineNumber: 62,
+                        lineNumber: 57,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -113,7 +113,7 @@ const Accordion = ()=>{
                                 children: "get started"
                             }, void 0, false, {
                                 fileName: "[project]/src/component/AccordionItem/Accordion.jsx",
-                                lineNumber: 69,
+                                lineNumber: 64,
                                 columnNumber: 13
                             }, this),
                             " ",
@@ -121,7 +121,7 @@ const Accordion = ()=>{
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/component/AccordionItem/Accordion.jsx",
-                        lineNumber: 67,
+                        lineNumber: 62,
                         columnNumber: 11
                     }, this)
                 ]
@@ -136,7 +136,7 @@ const Accordion = ()=>{
                         children: "Flowbite is first conceptualized and designed using the Figma software so everything you see in the library has a design equivalent in our Figma file."
                     }, void 0, false, {
                         fileName: "[project]/src/component/AccordionItem/Accordion.jsx",
-                        lineNumber: 86,
+                        lineNumber: 80,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -149,7 +149,7 @@ const Accordion = ()=>{
                                 children: "Figma design system"
                             }, void 0, false, {
                                 fileName: "[project]/src/component/AccordionItem/Accordion.jsx",
-                                lineNumber: 93,
+                                lineNumber: 87,
                                 columnNumber: 13
                             }, this),
                             " ",
@@ -157,7 +157,7 @@ const Accordion = ()=>{
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/component/AccordionItem/Accordion.jsx",
-                        lineNumber: 91,
+                        lineNumber: 85,
                         columnNumber: 11
                     }, this)
                 ]
@@ -172,7 +172,7 @@ const Accordion = ()=>{
                         children: "The main difference is that the core components from Flowbite are open source under the MIT license, whereas Tailwind UI is a paid product. Another difference is that Flowbite relies on smaller and standalone components, whereas Tailwind UI offers sections of pages."
                     }, void 0, false, {
                         fileName: "[project]/src/component/AccordionItem/Accordion.jsx",
-                        lineNumber: 109,
+                        lineNumber: 103,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -180,7 +180,7 @@ const Accordion = ()=>{
                         children: "However, we actually recommend using both Flowbite, Flowbite Pro, and even Tailwind UI as there is no technical reason stopping you from using the best of two worlds."
                     }, void 0, false, {
                         fileName: "[project]/src/component/AccordionItem/Accordion.jsx",
-                        lineNumber: 115,
+                        lineNumber: 109,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -188,7 +188,7 @@ const Accordion = ()=>{
                         children: "Learn more about these technologies:"
                     }, void 0, false, {
                         fileName: "[project]/src/component/AccordionItem/Accordion.jsx",
-                        lineNumber: 120,
+                        lineNumber: 114,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -201,12 +201,12 @@ const Accordion = ()=>{
                                     children: "Flowbite Pro"
                                 }, void 0, false, {
                                     fileName: "[project]/src/component/AccordionItem/Accordion.jsx",
-                                    lineNumber: 123,
+                                    lineNumber: 117,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/component/AccordionItem/Accordion.jsx",
-                                lineNumber: 122,
+                                lineNumber: 116,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -216,18 +216,18 @@ const Accordion = ()=>{
                                     children: "Tailwind UI"
                                 }, void 0, false, {
                                     fileName: "[project]/src/component/AccordionItem/Accordion.jsx",
-                                    lineNumber: 131,
+                                    lineNumber: 125,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/component/AccordionItem/Accordion.jsx",
-                                lineNumber: 130,
+                                lineNumber: 124,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/component/AccordionItem/Accordion.jsx",
-                        lineNumber: 121,
+                        lineNumber: 115,
                         columnNumber: 11
                     }, this)
                 ]
@@ -244,12 +244,12 @@ const Accordion = ()=>{
                 toggleOpen: toggleOpen
             }, idx, false, {
                 fileName: "[project]/src/component/AccordionItem/Accordion.jsx",
-                lineNumber: 147,
+                lineNumber: 141,
                 columnNumber: 9
             }, this))
     }, void 0, false, {
         fileName: "[project]/src/component/AccordionItem/Accordion.jsx",
-        lineNumber: 145,
+        lineNumber: 139,
         columnNumber: 5
     }, this);
 };
