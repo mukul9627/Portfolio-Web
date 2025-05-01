@@ -952,14 +952,6 @@
     border-radius: var(--radius-2xl);
   }
 
-  .rounded-\[17px\] {
-    border-radius: 17px;
-  }
-
-  .rounded-\[18px\] {
-    border-radius: 18px;
-  }
-
   .rounded-full {
     border-radius: 3.40282e38px;
   }
@@ -1028,10 +1020,6 @@
 
   .bg-\[\#171717\] {
     background-color: #171717;
-  }
-
-  .bg-\[\#f0f2f5\] {
-    background-color: #f0f2f5;
   }
 
   .bg-\[\#f5f6f8\] {
@@ -1124,10 +1112,6 @@
     padding: calc(var(--spacing) * 8);
   }
 
-  .p-\[3px\] {
-    padding: 3px;
-  }
-
   .px-1 {
     padding-inline: calc(var(--spacing) * 1);
   }
@@ -1200,10 +1184,6 @@
     padding-top: calc(var(--spacing) * 16);
   }
 
-  .pt-\[15px\] {
-    padding-top: 15px;
-  }
-
   .pt-\[22px\] {
     padding-top: 22px;
   }
@@ -1230,10 +1210,6 @@
 
   .pl-6 {
     padding-left: calc(var(--spacing) * 6);
-  }
-
-  .pl-\[11rem\] {
-    padding-left: 11rem;
   }
 
   .text-center {
@@ -1412,11 +1388,6 @@
 
   .shadow {
     --tw-shadow: 0 1px 3px 0 var(--tw-shadow-color, #0000001a), 0 1px 2px -1px var(--tw-shadow-color, #0000001a);
-    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
-  }
-
-  .shadow-\[5px_5px_10px_\#d1d9e6\,_-5px_-5px_10px_\#fff\], .shadow-\[5px_5px_10px_\#d1d9e6\,_-5px_-5px_10px_\#ffffff\] {
-    --tw-shadow: 5px 5px 10px var(--tw-shadow-color, #d1d9e6), -5px -5px 10px var(--tw-shadow-color, #fff);
     box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
   }
 
@@ -1796,22 +1767,8 @@
   }
 
   @media (width >= 64rem) {
-    .lg\:gap-4 {
-      gap: calc(var(--spacing) * 4);
-    }
-  }
-
-  @media (width >= 64rem) {
     .lg\:gap-12 {
       gap: calc(var(--spacing) * 12);
-    }
-  }
-
-  @media (width >= 64rem) {
-    :where(.lg\:space-y-6 > :not(:last-child)) {
-      --tw-space-y-reverse: 0;
-      margin-block-start: calc(calc(var(--spacing) * 6) * var(--tw-space-y-reverse));
-      margin-block-end: calc(calc(var(--spacing) * 6) * calc(1 - var(--tw-space-y-reverse)));
     }
   }
 
@@ -1830,12 +1787,6 @@
   @media (width >= 64rem) {
     .lg\:bg-\[\#f0f2f5\] {
       background-color: #f0f2f5;
-    }
-  }
-
-  @media (width >= 64rem) {
-    .lg\:p-6 {
-      padding: calc(var(--spacing) * 6);
     }
   }
 
@@ -1878,12 +1829,6 @@
   @media (width >= 64rem) {
     .lg\:text-center {
       text-align: center;
-    }
-  }
-
-  @media (width >= 64rem) {
-    .lg\:text-left {
-      text-align: left;
     }
   }
 
