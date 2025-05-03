@@ -5,7 +5,7 @@ import "@/component/Card/card.css";
 import "@/app/globals.css";
 import Accordion from "@/component/AccordionItem/Accordion";
 import { Mail, Github, Linkedin } from "lucide-react";
-import Profile from "@/myImage/MukulPro.jpg";
+import Profile from "@/myImage/MukulPro.jpeg";
 
 const Aboutcomp = () => {
   return (
@@ -34,14 +34,14 @@ const Aboutcomp = () => {
                 <Mail />
               </a>
               <a
-                href="https://github.com/"
+                href="https://github.com/mukul9627"
                 target="_blank"
                 className="p-2 rounded-lg bg-gray-100 hover:bg-gray-200 text-black"
               >
                 <Github />
               </a>
               <a
-                href="https://linkedin.com/"
+                href="https://in.linkedin.com/in/mukul-sharma-4763791b1"
                 target="_blank"
                 className="p-2 rounded-lg bg-gray-100 hover:bg-gray-200 text-black"
               >
@@ -56,10 +56,10 @@ const Aboutcomp = () => {
                 🧑‍💻 About Me
               </h3>
               <p className="text-gray-600">
-                I'm a passionate Software Engineer with over 4 years of hands-on
-                coding experience, specializing in React, Next.js, and Node.js.
-                I excel at building high-performance web applications and enjoy
-                solving complex challenges with innovative solutions.
+                I'm a passionate Software Engineer with over 3 years of hands-on
+                experience, specializing in React, Next.js, and Node.js. I excel
+                at building high-performance web applications and enjoy tackling
+                complex challenges with innovative solutions.
               </p>
             </div>
 
@@ -115,7 +115,7 @@ const Aboutcomp = () => {
         </div>
       </div>
       <div className="flex flex-col gap-6 bg-white rounded-lg px-4 py-6 w-full max-w-7xl mx-auto">
-        <div className="flex flex-col gap-6 bg-white rounded-2xl w-full p-4 sm:p-6">
+        <div className="flex flex-col gap-6 bg-white rounded-2xl w-full lg:p-4 sm:p-6">
           <h3 className="text-xl font-semibold mb-2 text-black">
             💻 Experience
           </h3>
@@ -132,54 +132,7 @@ const Aboutcomp = () => {
                 solving complex challenges with innovative solutions.
               </p>
             </div>
-            {/* Technical Skills */}
-            <div className="w-full">
-              <h3 className="text-xl font-semibold mb-2 text-black">
-                💻 Technical Skills
-              </h3>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                {/* Languages & Frameworks */}
-                <div className="bg-gray-50 p-4 rounded-xl shadow w-full">
-                  <h4 className="font-medium mb-2 text-black">
-                    Languages & Frameworks
-                  </h4>
-                  <div className="flex flex-wrap gap-2 text-black">
-                    {[
-                      "JavaScript",
-                      "TypeScript",
-                      "Python",
-                      "React",
-                      "Astro",
-                      "Node.js",
-                      "Next.js",
-                    ].map((skill) => (
-                      <span
-                        key={skill}
-                        className="bg-gray-200 text-sm px-3 py-1 rounded-full"
-                      >
-                        {skill}
-                      </span>
-                    ))}
-                  </div>
-                </div>
-                {/* Technologies */}
-                <div className="bg-gray-50 p-4 rounded-xl shadow w-full">
-                  <h4 className="font-medium mb-2 text-black">Technologies</h4>
-                  <div className="flex flex-wrap gap-2 text-black">
-                    {["Git", "Docker", "AWS", "GraphQL", "REST APIs"].map(
-                      (tech) => (
-                        <span
-                          key={tech}
-                          className="bg-gray-200 text-sm px-3 py-1 rounded-full"
-                        >
-                          {tech}
-                        </span>
-                      )
-                    )}
-                  </div>
-                </div>
-              </div>
-            </div>
+          
           </div>
         </div>
       </div>
