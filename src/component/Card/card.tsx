@@ -5,6 +5,7 @@ import "@/component/Card/card.css";
 import "@/app/globals.css";
 import Accordion from "@/component/AccordionItem/Accordion";
 import SubmissionHeatmap from "@/component/SubmissionHeatmap";
+import { Languages } from "lucide-react";
 
 type CardProps = {
   name: string;
@@ -13,8 +14,29 @@ type CardProps = {
 };
 
 const Card: React.FC<CardProps> = ({ name, description, buttonLink }) => {
-
-  const projectTitle = ["blog-webapplication", "portfolio-site", "task-manager"]
+  const projectTitle = [
+    {
+      title: "blog-webapplication",
+      description:
+        "A blog web application built with Next.js, designed for fast performance and easy content management. It features dynamic routing, SEO optimization, and a modern user interface to deliver a seamless reading and publishing experience.",
+      languages: "next.js",
+      star: 1,
+    },
+    {
+      title: "portfolio-site",
+      description:
+        "A blog web application built with Next.js, designed for fast performance and easy content management. It features dynamic routing, SEO optimization, and a modern user interface to deliver a seamless reading and publishing experience.",
+      languages: "next.js",
+      star: 1,
+    },
+    {
+      title: "task-manager",
+      description:
+        "A blog web application built with Next.js, designed for fast performance and easy content management. It features dynamic routing, SEO optimization, and a modern user interface to deliver a seamless reading and publishing experience.",
+      languages: "next.js",
+      star: 1,
+    },
+  ];
 
   return (
     <>
@@ -50,12 +72,23 @@ const Card: React.FC<CardProps> = ({ name, description, buttonLink }) => {
           <div className="w-full lg:w-1/2">
             <h2 className="flex text-lg font-semibold mb-2 text-gray-900 pl-3 items-center">
               {/* Trending Repos Icon */}
-              <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 496 512" className="mr-1" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg>
+              <svg
+                stroke="currentColor"
+                fill="currentColor"
+                stroke-width="0"
+                viewBox="0 0 496 512"
+                className="mr-1"
+                height="1em"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path>
+              </svg>
               Trending Repos
             </h2>
 
             <div className="flex flex-col sm:flex-row gap-6 w-full">
-              {projectTitle.map((title, idx) => (
+              {projectTitle.map((projectTitle, idx) => (
                 <div
                   key={idx}
                   className="p-4 rounded-lg bg-white shadow w-full sm:w-1/3"
@@ -80,19 +113,16 @@ const Card: React.FC<CardProps> = ({ name, description, buttonLink }) => {
                         <path d="M7 18.25a.25.25 0 0 1 .25-.25h5a.25.25 0 0 1 .25.25v5.01a.25.25 0 0 1-.397.201l-2.206-1.604a.25.25 0 0 0-.294 0L7.397 23.46a.25.25 0 0 1-.397-.2v-5.01Z"></path>
                       </svg>
                       <span className="line-clamp-1 ml-1 text-xs text-black">
-                       {title}
+                        {projectTitle.title}
                       </span>
                     </a>
                   </h4>
                   <p className="text-sm text-gray-500 mt-2 leading-snug line-clamp-3">
-                    A blog web application built with Next.js, designed for fast
-                    performance and easy content management. It features dynamic
-                    routing, SEO optimization, and a modern user interface to
-                    deliver a seamless reading and publishing experience.
+                    {projectTitle.description}
                   </p>
                   <div className="flex items-center justify-between mt-4">
                     <div className="rounded-md border py-0.5 px-2 text-xs font-semibold bg-black text-white">
-                      Next.js
+                      {projectTitle.languages}
                     </div>
                     <div className="flex items-center text-black">
                       <svg
@@ -107,7 +137,9 @@ const Card: React.FC<CardProps> = ({ name, description, buttonLink }) => {
                       >
                         <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
                       </svg>
-                      <span className="ml-0.5 text-sm">1</span>
+                      <span className="ml-0.5 text-sm">
+                        {projectTitle.star}
+                      </span>
                     </div>
                   </div>
                 </div>

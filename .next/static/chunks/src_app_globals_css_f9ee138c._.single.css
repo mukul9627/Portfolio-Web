@@ -962,12 +962,6 @@
   }
 
   @media (width >= 40rem) {
-    .sm\:grid-cols-2 {
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-  }
-
-  @media (width >= 40rem) {
     .sm\:flex-col {
       flex-direction: column;
     }
@@ -1130,18 +1124,6 @@
   }
 
   @media (width >= 64rem) {
-    .lg\:pt-14 {
-      padding-top: calc(var(--spacing) * 14);
-    }
-  }
-
-  @media (width >= 64rem) {
-    .lg\:pt-16 {
-      padding-top: calc(var(--spacing) * 16);
-    }
-  }
-
-  @media (width >= 64rem) {
     .lg\:pt-\[15px\] {
       padding-top: 15px;
     }
@@ -1156,12 +1138,6 @@
   @media (width >= 64rem) {
     .lg\:pl-\[11rem\] {
       padding-left: 11rem;
-    }
-  }
-
-  @media (width >= 64rem) {
-    .lg\:pl-\[14rem\] {
-      padding-left: 14rem;
     }
   }
 

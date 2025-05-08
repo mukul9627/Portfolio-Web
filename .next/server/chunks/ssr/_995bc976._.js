@@ -38,7 +38,7 @@ const Resume = ()=>{
         }, void 0, false, {
             fileName: "[project]/src/app/resume/page.tsx",
             lineNumber: 6,
-            columnNumber: 3
+            columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/app/resume/page.tsx",
