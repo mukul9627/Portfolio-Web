@@ -5,19 +5,20 @@ import "@/component/Card/card.css";
 import "@/app/globals.css";
 import Accordion from "@/component/AccordionItem/Accordion";
 import { Mail, Github, Linkedin } from "lucide-react";
-import Profile from "@/myImage/MukulPro.jpeg";
+// import Profile from "@/myImage/MukulPro.jpeg";
 
 const Aboutcomp = () => {
   return (
     <>
-      <div className="flex flex-col gap-6 bg-white rounded-lg p-4 sm:p-6 w-full max-w-7xl mx-auto pt-[22px]">
+      <div className="flex flex-col gap-6 bg-white rounded-lg p-4 sm:p-6 w-full mx-auto pt-[22px]">
         {/* Main Content - Stack on mobile, row on large screens */}
         <div className="flex flex-col lg:flex-row gap-6 w-full">
           {/* Profile Section */}
           <div className="flex flex-col items-center text-center lg:text-center lg:items-center w-full lg:w-[27rem] bg-white p-4 rounded-2xl shadow">
             <div className="w-32 h-32 sm:w-40 sm:h-40 rounded-full overflow-hidden">
               <Image
-                src={Profile}
+                 src=''
+                // {Profile}
                 alt="Mukul Sharma"
                 width={160}
                 height={160}
@@ -114,7 +115,29 @@ const Aboutcomp = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col gap-6 bg-white rounded-lg px-4 py-6 w-full max-w-7xl mx-auto">
+      <div className="flex flex-col gap-6 bg-white rounded-lg px-4 py-6 w-full mx-auto">
+        <div className="flex flex-col gap-6 bg-white rounded-2xl w-full lg:p-4 sm:p-6">
+          <h3 className="text-xl font-semibold mb-2 text-black">
+            💻 Experience
+          </h3>
+          <div className="flex flex-col gap-6 w-full">
+            {/* About Me */}
+            <div className="bg-gray-50 p-4 rounded-xl shadow w-full">
+              <h3 className="text-xl font-semibold mb-2 text-black">
+                🧑‍💻 About Me
+              </h3>
+              <p className="text-gray-600">
+                I'm a passionate Software Engineer with over 3 years of hands-on
+                coding experience, specializing in React, Next.js, and Node.js.
+                I excel at building high-performance web applications and enjoy
+                solving complex challenges with innovative solutions.
+              </p>
+            </div>
+          
+          </div>
+        </div>
+      </div>
+      <div className="flex flex-col gap-6 bg-white rounded-lg px-4 py-6 w-full mx-auto">
         <div className="flex flex-col gap-6 bg-white rounded-2xl w-full lg:p-4 sm:p-6">
           <h3 className="text-xl font-semibold mb-2 text-black">
             💻 Experience
