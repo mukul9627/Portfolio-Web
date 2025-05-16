@@ -17,7 +17,7 @@ const Aboutcomp = () => {
           <div className="flex flex-col items-center text-center lg:text-center lg:items-center w-full lg:w-[27rem] bg-white p-4 rounded-2xl shadow">
             <div className="w-32 h-32 sm:w-40 sm:h-40 rounded-full overflow-hidden">
               <Image
-                 src=''
+                src=""
                 // {Profile}
                 alt="Mukul Sharma"
                 width={160}
@@ -133,7 +133,6 @@ const Aboutcomp = () => {
                 solving complex challenges with innovative solutions.
               </p>
             </div>
-          
           </div>
         </div>
       </div>
@@ -155,7 +154,6 @@ const Aboutcomp = () => {
                 solving complex challenges with innovative solutions.
               </p>
             </div>
-          
           </div>
         </div>
       </div>
