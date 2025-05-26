@@ -16,6 +16,7 @@ type CardProps = {
 const Card: React.FC<CardProps> = ({ name, description, buttonLink }) => {
   const projectTitle = [
     {
+      
       title: "blog-webapplication",
       description:
         "A blog web application built with Next.js, designed for fast performance and easy content management. It features dynamic routing, SEO optimization, and a modern user interface to deliver a seamless reading and publishing experience.",
@@ -23,16 +24,16 @@ const Card: React.FC<CardProps> = ({ name, description, buttonLink }) => {
       star: 1,
     },
     {
+      href: "https://github.com/mukul9627/Portfolio-Web",
       title: "portfolio-site",
       description:
-        "A blog web application built with Next.js, designed for fast performance and easy content management. It features dynamic routing, SEO optimization, and a modern user interface to deliver a seamless reading and publishing experience.",
+        "A personal portfolio website built using Next.js, Node.js, and Tailwind CSS. It showcases projects, skills, and achievements with a fast, responsive, and modern user interface. The site is optimized for SEO, features smooth navigation with dynamic routing, and is designed for easy customization and scalability.",
       languages: "next.js",
       star: 1,
     },
     {
       title: "task-manager",
-      description:
-        "A blog web application built with Next.js, designed for fast performance and easy content management. It features dynamic routing, SEO optimization, and a modern user interface to deliver a seamless reading and publishing experience.",
+      description:"A task management web application built with Next.js, designed to help users efficiently organize, track, and manage their daily tasks. It features dynamic routing, a responsive user interface with Tailwind CSS, and real-time interactions powered by Node.js. The app supports task creation, editing, status updates, and intuitive filtering for improved productivity.",
       languages: "next.js",
       star: 1,
     },
@@ -96,7 +97,7 @@ const Card: React.FC<CardProps> = ({ name, description, buttonLink }) => {
                   <h4 className="font-semibold tracking-tight text-sm line-clamp-1 flex items-center text-black">
                     <a
                       className="flex items-center"
-                      href="https://github.com/phondani0/vite-serve"
+                      href={projectTitle.href}
                       target="_blank"
                       rel="noreferrer"
                     >

@@ -396,6 +396,10 @@
     height: calc(var(--spacing) * 32);
   }
 
+  .h-\[112px\] {
+    height: 112px;
+  }
+
   .h-\[600px\] {
     height: 600px;
   }
@@ -787,6 +791,10 @@
   .text-xs {
     font-size: var(--text-xs);
     line-height: var(--tw-leading, var(--text-xs--line-height));
+  }
+
+  .text-\[10px\] {
+    font-size: 10px;
   }
 
   .text-\[12px\] {
