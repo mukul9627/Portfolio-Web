@@ -1,5 +1,7 @@
 import { useState } from "react";
 import "@/component/AccordionItem/accordion.css";
+import Image from "next/image";
+import Portfolio from "@/myImage/portfolio.png"
 
 const AccordionItem = ({ title, content, index, isOpen, toggleOpen }) => (
   <div>
@@ -54,6 +56,7 @@ const Accordion = () => {
       title: "What is Flowbite?",
       content: (
         <>
+        <Image src={Portfolio} alt="project Img" className="mb-4 w-30% h-30% ml-[12rem]"/>
           <p className="mb-2">
             Flowbite is an open-source library of interactive components built
             on top of Tailwind CSS including buttons, dropdowns, modals,
