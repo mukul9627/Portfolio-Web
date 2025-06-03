@@ -4,7 +4,7 @@ const Resume = () => {
   return (
     <div className="flex justify-center">
       <iframe
-        src="https://drive.google.com/file/d/1CSWe-dFQz09CFSiDXsioljsFDtYf6wwo/preview"
+        src="https://drive.google.com/file/d/1oXOJKVi_V7TmwDiJdfxfJfQq1HkJCk4a/preview"
         frameBorder="0"
         allow="autoplay"
         className="w-[80%] h-[600px]"
@@ -12,5 +12,4 @@ const Resume = () => {
     </div>
   );
 };
-
 export default Resume;

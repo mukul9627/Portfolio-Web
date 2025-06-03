@@ -323,6 +323,10 @@
     margin-right: calc(var(--spacing) * 1);
   }
 
+  .mr-2 {
+    margin-right: calc(var(--spacing) * 2);
+  }
+
   .mr-4 {
     margin-right: calc(var(--spacing) * 4);
   }
@@ -349,6 +353,10 @@
 
   .ml-1 {
     margin-left: calc(var(--spacing) * 1);
+  }
+
+  .ml-4 {
+    margin-left: calc(var(--spacing) * 4);
   }
 
   .ml-6 {
@@ -495,6 +503,10 @@
 
   .rotate-180 {
     rotate: 180deg;
+  }
+
+  .list-inside {
+    list-style-position: inside;
   }
 
   .list-disc {
