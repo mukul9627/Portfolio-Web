@@ -154,7 +154,7 @@ const Aboutcomp = () => {
               </h3>
               <p className="text-gray-400">(09/2022) – Present</p>
               
-                <ul className="list-disc list-outside mt-2 pl-5 text-gray-600 text-sm lg:text-md leading-relaxed">
+                <ul className="list-disc list-outside mt-2 pl-5 text-gray-600 text-sm lg:text-[16px] leading-relaxed">
                 <li>Developed interactive dashboards using JavaScript and React.js, leveraging framework capabilities for dynamic UI and data visualization.</li>
                 <li>
                   Built and maintained responsive front-end components with

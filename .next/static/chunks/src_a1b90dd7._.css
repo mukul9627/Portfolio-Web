@@ -1232,6 +1232,12 @@
   }
 
   @media (width >= 64rem) {
+    .lg\:text-\[16px\] {
+      font-size: 16px;
+    }
+  }
+
+  @media (width >= 64rem) {
     .lg\:text-black {
       color: var(--color-black);
     }
