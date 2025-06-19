@@ -1,11 +1,10 @@
 "use client";
 import React from "react";
-import { format } from "date-fns";
 import "@/component/Card/card.css";
 import "@/app/globals.css";
 import Accordion from "@/component/AccordionItem/Accordion";
 import SubmissionHeatmap from "@/component/SubmissionHeatmap";
-import { Languages } from "lucide-react";
+
 
 type CardProps = {
   name: string;

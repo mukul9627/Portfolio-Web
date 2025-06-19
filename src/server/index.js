@@ -1,6 +1,6 @@
-const express = require('express');
-const cors = require('cors');
-const prisma = require('./prisma');
+import express from 'express';
+import cors from 'cors';
+import prisma from './prisma'; // make sure this is default export or update accordingly
 
 const app = express();
 app.use(cors());

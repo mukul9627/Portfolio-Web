@@ -323,6 +323,10 @@
     margin-top: calc(var(--spacing) * 4);
   }
 
+  .mt-6 {
+    margin-top: calc(var(--spacing) * 6);
+  }
+
   .mr-1 {
     margin-right: calc(var(--spacing) * 1);
   }

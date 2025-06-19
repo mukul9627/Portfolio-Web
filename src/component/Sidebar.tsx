@@ -7,7 +7,6 @@ import {
   FaGithub,
   FaLinkedin,
   FaFileAlt,
-  FaTachometerAlt,
 } from "react-icons/fa";
 import { HiOutlineViewGrid } from "react-icons/hi";
 
