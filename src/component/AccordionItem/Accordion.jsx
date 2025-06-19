@@ -113,92 +113,73 @@ const Accordion = () => {
     setOpenIndex(openIndex === index ? null : index);
   };
   const items = [
-    {
-      title: "Portfolio",
-      content: (
-        <>
+   {
+  title: "Portfolio",
+  content: (
+    <>
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 items-start">
+        {/* Image */}
+        <div className="flex justify-center lg:justify-start">
           <Image
-  src={Portfolio}
-  alt="project Img"
-  className="mb-4 w-[30%] h-[30%] ml-[6rem] lg:ml-[12rem]"
-/>
+            src={Portfolio}
+            alt="project Img"
+            className="w-full max-w-[250px] h-auto"
+          />
+        </div>
 
-          <p className="mb-2">
-            Flowbite is an open-source library of interactive components built
-            on top of Tailwind CSS including buttons, dropdowns, modals,
-            navbars, and more.
-          </p>
-          <p>
-            Check out this guide to learn how to{" "}
-            <a
-              href="/docs/getting-started/introduction/"
-              className="text-blue-600 dark:text-blue-500 hover:underline"
-            >
-              get started
-            </a>{" "}
-            and start developing websites even faster with components on top of
-            Tailwind CSS.
-          </p>
+        {/* Summary Paragraph */}
+        <div>
+          <p className="text-gray-600 text-sm lg:text-[16px] leading-relaxed">
+Built a portfolio using Next.js.
+  Used server-side rendering, dynamic routing.
+  Styled with Tailwind CSS for consistency.
+  Stored form data using SQL database.          </p>
+        </div>
+      </div>
+    </>
+  ),
+},
+
+
+    {
+      title: "CRM (Customer Relationship Management)",
+      content: (
+        <>
+        <p className="mt-2 pl-5 text-gray-600 text-sm lg:text-[16px] leading-relaxed">
+  Designed and developed a custom CRM system to digitize manual sales, operations,
+  and accounting workflows. Replaced traditional paper-based processes (form filling,
+  lead tracking, etc.) with a centralized digital platform. Used React.js for the
+  front-end, .NET APIs for backend logic, and SQL Server for data storage. Improved
+  lead source visibility, task tracking, and department efficiency through automation
+  and real-time updates. Enhanced internal team productivity by reducing manual errors
+  and streamlining cross-department collaboration.
+</p>
         </>
       ),
     },
     {
-      title: "Is there a Figma file available?",
+      title: "Web Application",
       content: (
         <>
-          <p className="mb-2">
-            Flowbite is first conceptualized and designed using the Figma
-            software so everything you see in the library has a design
-            equivalent in our Figma file.
-          </p>
-          <p>
-            Check out the{" "}
-            <a
-              href="https://flowbite.com/figma/"
-              className="text-blue-600 dark:text-blue-500 hover:underline"
-            >
-              Figma design system
-            </a>{" "}
-            based on the utility classes from Tailwind CSS and components from
-            Flowbite.
-          </p>
-        </>
-      ),
-    },
-    {
-      title: "Tailwind UI?",
-      content: (
-        <>
-          <p className="mb-2">
-            The main difference is that the core components from Flowbite are
-            open source under the MIT license, whereas Tailwind UI is a paid
-            product. Another difference is that Flowbite relies on smaller and
-            standalone components, whereas Tailwind UI offers sections of pages.
-          </p>
-          <p className="mb-2">
-            However, we actually recommend using both Flowbite, Flowbite Pro,
-            and even Tailwind UI as there is no technical reason stopping you
-            from using the best of two worlds.
-          </p>
-          <p className="mb-2">Learn more about these technologies:</p>
-          <ul className="list-disc ps-5">
-            <li>
-              <a
-                href="https://flowbite.com/pro/"
-                className="text-blue-600 dark:text-blue-500 hover:underline"
-              >
-                Flowbite Pro
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://tailwindui.com/"
-                className="text-blue-600 dark:text-blue-500 hover:underline"
-              >
-                Tailwind UI
-              </a>
-            </li>
-          </ul>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 items-start">
+        {/* Image */}
+        <div className="flex justify-center lg:justify-start">
+          <Image
+            src={Portfolio}
+            alt="project Img"
+            className="w-full max-w-[250px] h-auto"
+          />
+        </div>
+
+        {/* Summary Paragraph */}
+        <div>
+          <p className="text-gray-600 text-sm lg:text-[16px] leading-relaxed">
+Built a portfolio using Next.js.
+  Used server-side rendering, dynamic routing.
+  Styled with Tailwind CSS for consistency.
+  Stored form data using SQL database.          </p>
+        </div>
+      </div>
         </>
       ),
     },
