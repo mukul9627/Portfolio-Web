@@ -51,18 +51,36 @@ const Aboutcomp = () => {
           {/* About & Skills Section */}
           <div className="flex flex-col gap-6 flex-1 w-full">
             <div className="bg-gray-50 p-4 rounded-xl shadow">
-              <h3 className="text-xl font-semibold mb-2 text-black">🧑‍💻 About Me</h3>
+              <h3 className="text-xl font-semibold mb-2 text-black">
+                🧑‍💻 About Me
+              </h3>
               <p className="text-gray-600">
-                I&apos;m a passionate Software Engineer with over 3 years of hands-on
-                experience, specializing in React, Next.js, and Node.js. I excel
-                at building high-performance web applications and enjoy tackling
-                complex challenges with innovative solutions.
+                Software Engineer skilled in front-end technologies and modern
+                web frameworks. Experienced in building responsive,
+                user-friendly, and scalable web applications. Collaborates well
+                with teams to deliver efficient and quality-driven solutions.
+                Committed to clean code, performance, and continuous learning in
+                development.
               </p>
             </div>
 
             <div>
               <h3 className="text-xl font-semibold mb-2 text-black flex">
-                <svg stroke="currentColor" fill="none" strokeWidth="2" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round" className="mr-2 mt-1" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+                <svg
+                  stroke="currentColor"
+                  fill="none"
+                  strokeWidth="2"
+                  viewBox="0 0 24 24"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="mr-2 mt-1"
+                  height="1em"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
                 Technical Skills
               </h3>
 
@@ -81,7 +99,7 @@ const Aboutcomp = () => {
                       "Node.js",
                       "Next.js",
                       "Tailwind Css",
-                      "HTML5"
+                      "HTML5",
                     ].map((skill) => (
                       <span
                         key={skill}
@@ -106,7 +124,7 @@ const Aboutcomp = () => {
                       "GitHub",
                       "Postman",
                       "Jira",
-                      "vercel"
+                      "vercel",
                     ].map((tech) => (
                       <span
                         key={tech}
@@ -126,19 +144,54 @@ const Aboutcomp = () => {
       {/* Experience Section */}
       <div className="flex flex-col gap-6 bg-white rounded-lg px-4 py-6 w-full mx-auto">
         <div className="flex flex-col gap-6 bg-white rounded-2xl w-full lg:p-4 sm:p-6">
-          <h3 className="text-xl font-semibold mb-2 text-black">💻 Experience</h3>
+          <h3 className="text-xl font-semibold mb-2 text-black">
+            💻 Experience
+          </h3>
           <div className="flex flex-col gap-6 w-full">
             <div className="bg-gray-50 p-4 rounded-xl shadow w-full">
               <h3 className="text-xl font-semibold text-black">
-                Junior Software Developer, CarryMyPet
+                Software Engineer, DBB WorldWide
               </h3>
               <p className="text-gray-400">(09/2022) – Present</p>
-              <ul className="list-disc list-inside mt-2 ml-4 text-gray-600">
-                <li>Developed and maintained front-end features using HTML, CSS, JavaScript, Bootstrap, and React.js, ensuring responsive design and optimal performance.</li>
-                <li>Worked on backend components using ASP.NET (C#) and SQL Server, implementing RESTful APIs and data operations.</li>
-                <li>Deployed and maintained websites on production environments; ensured cross-browser compatibility and mobile responsiveness.</li>
-                <li>Collaborated with the QA and product teams using Jira, ensured timely task delivery and agile sprint completion.</li>
-                <li>Utilized GitHub for version control and Postman for API testing.</li>
+              
+                <ul className="list-disc list-outside mt-2 pl-5 text-gray-600 text-sm lg:text-md leading-relaxed">
+                <li>Developed interactive dashboards using JavaScript and React.js, leveraging framework capabilities for dynamic UI and data visualization.</li>
+                <li>
+                  Built and maintained responsive front-end components with
+                  HTML, CSS, JavaScript, Bootstrap, and React.js, ensuring
+                  cross-browser compatibility and mobile responsiveness.
+                </li>
+                <li>
+                  Added key features to enhance user experience, including
+                  customizable widgets, real-time data updates, and intuitive
+                  navigation.{" "}
+                </li>
+                <li>
+                  Collaborated with cross-functional teams — designers, backend
+                  developers, and product managers — to gather requirements,
+                  refine UI/UX, and integrate front-end with backend services.
+                </li>
+                <li>
+                  Contributed to backend development using ASP.NET (C#) and SQL
+                  Server, including implementation of RESTful APIs and database
+                  operations.
+                </li>
+                <li>
+                  Deployed and managed production builds, ensuring performance,
+                  security, and high availability.{" "}
+                </li> 
+                <li>
+                  Worked in Agile environments using Jira for task tracking and
+                  sprint planning.
+                </li>
+                <li>
+                  Used GitHub for version control and Postman for testing and
+                  validating APIs
+                </li>
+                <li>
+                  Conducted code reviews and wrote unit tests using Jest to
+                  maintain code quality and scalability.
+                </li>
               </ul>
             </div>
           </div>
@@ -148,14 +201,17 @@ const Aboutcomp = () => {
       {/* Education Section */}
       <div className="flex flex-col gap-6 bg-white rounded-lg px-4 py-6 w-full mx-auto">
         <div className="flex flex-col gap-6 bg-white rounded-2xl w-full lg:p-4 sm:p-6">
-          <h3 className="text-xl font-semibold mb-2 text-black">🎓 Education</h3>
+          <h3 className="text-xl font-semibold mb-2 text-black">
+            🎓 Education
+          </h3>
           <div className="flex flex-col gap-6 w-full">
             <div className="bg-gray-50 p-4 rounded-xl shadow w-full">
               <h3 className="text-xl font-semibold mb-2 text-black">
                 Master of Computer Applications (MCA)
               </h3>
               <p className="text-gray-600">
-                Shri Guru Ram Rai University, Dehradun, India | Aug. 2020 – Aug. 2022
+                Shri Guru Ram Rai University, Dehradun, India | Aug. 2020 – Aug.
+                2022
               </p>
               <ul className="list-disc list-inside mt-2 ml-4 text-gray-600">
                 <li>Graduated with a CGPA of 9.0/10.</li>
@@ -165,7 +221,8 @@ const Aboutcomp = () => {
                 Bachelor of Computer Applications (BCA)
               </h3>
               <p className="text-gray-600">
-                Shri Guru Ram Rai University, Dehradun, India | Aug. 2017 – Aug. 2020
+                Shri Guru Ram Rai University, Dehradun, India | Aug. 2017 – Aug.
+                2020
               </p>
               <ul className="list-disc list-inside mt-2 ml-4 text-gray-600">
                 <li>Graduated with a CGPA of 8.9/10.</li>

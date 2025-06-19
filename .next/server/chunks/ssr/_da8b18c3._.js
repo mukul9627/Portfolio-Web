@@ -72,7 +72,7 @@ const home = ()=>{
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$component$2f$Card$2f$card$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                 name: "Mukul Sharma",
-                description: "I'm a passionate Software Engineer with over 3 years of hands-on experience, specializing in React, Next.js, and Node.js. I excel at building high-performance web applications and enjoy tackling complex challenges with innovative solutions.",
+                description: "Software Engineer skilled in front-end technologies and modern web   frameworks. Experienced in building responsive, user-friendly, and scalable   web applications. Collaborates well with teams to deliver efficient and   quality-driven solutions. Committed to clean code, performance, and   continuous learning in development. ",
                 buttonLink: "View Detail"
             }, void 0, false, {
                 fileName: "[project]/src/app/Home/page.tsx",

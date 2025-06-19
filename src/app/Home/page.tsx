@@ -7,7 +7,11 @@ const home = () => {
       <div>
         <Card
           name="Mukul Sharma"
-          description="I'm a passionate Software Engineer with over 3 years of hands-on experience, specializing in React, Next.js, and Node.js. I excel at building high-performance web applications and enjoy tackling complex challenges with innovative solutions."
+          description="Software Engineer skilled in front-end technologies and modern web
+ frameworks. Experienced in building responsive, user-friendly, and scalable
+ web applications. Collaborates well with teams to deliver efficient and
+ quality-driven solutions. Committed to clean code, performance, and
+ continuous learning in development. "
           buttonLink="View Detail"
         />
       </div>

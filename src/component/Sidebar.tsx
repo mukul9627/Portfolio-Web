@@ -24,7 +24,7 @@ const Sidebar = () => {
   lg:shadow-[5px_5px_10px_#d1d9e6,_-5px_-5px_10px_#ffffff] lg:pt-[15px]"
       >
         <Link
-          href="/"
+          href="/Home"
           className="hover:text-blue-400 flex items-center gap-2 
         lg:rounded-[17px] lg:p-[3px] lg:shadow-[5px_5px_10px_#d1d9e6,_-5px_-5px_10px_#fff] text-base"
         >
@@ -65,7 +65,7 @@ const Sidebar = () => {
         </a>
 
         <a
-          href="https://linkedin.com/in/your-username"
+          href="https://linkedin.com/in/mukul-sharma-4763791b1"
           target="_blank"
           className="hover:text-blue-400 flex items-center gap-2 
         lg:rounded-[17px] lg:p-[3px] lg:shadow-[5px_5px_10px_#d1d9e6,_-5px_-5px_10px_#fff] text-base"

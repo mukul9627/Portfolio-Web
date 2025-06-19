@@ -82,6 +82,7 @@
     --tracking-tight: -.025em;
     --tracking-wide: .025em;
     --leading-snug: 1.375;
+    --leading-relaxed: 1.625;
     --radius-sm: .25rem;
     --radius-md: .375rem;
     --radius-lg: .5rem;
@@ -371,8 +372,8 @@
     margin-left: calc(var(--spacing) * 6);
   }
 
-  .ml-\[12rem\] {
-    margin-left: 12rem;
+  .ml-\[6rem\] {
+    margin-left: 6rem;
   }
 
   .line-clamp-1 {
@@ -433,6 +434,10 @@
     height: calc(var(--spacing) * 32);
   }
 
+  .h-\[30\%\] {
+    height: 30%;
+  }
+
   .h-\[600px\] {
     height: 600px;
   }
@@ -481,6 +486,10 @@
     width: 6rem;
   }
 
+  .w-\[30\%\] {
+    width: 30%;
+  }
+
   .w-\[50px\] {
     width: 50px;
   }
@@ -515,6 +524,10 @@
 
   .list-inside {
     list-style-position: inside;
+  }
+
+  .list-outside {
+    list-style-position: outside;
   }
 
   .list-disc {
@@ -804,6 +817,10 @@
     padding-left: calc(var(--spacing) * 3);
   }
 
+  .pl-5 {
+    padding-left: calc(var(--spacing) * 5);
+  }
+
   .text-center {
     text-align: center;
   }
@@ -849,6 +866,11 @@
   .leading-none {
     --tw-leading: 1;
     line-height: 1;
+  }
+
+  .leading-relaxed {
+    --tw-leading: var(--leading-relaxed);
+    line-height: var(--leading-relaxed);
   }
 
   .leading-snug {
@@ -1066,6 +1088,12 @@
   }
 
   @media (width >= 64rem) {
+    .lg\:ml-\[12rem\] {
+      margin-left: 12rem;
+    }
+  }
+
+  @media (width >= 64rem) {
     .lg\:h-\[95vh\] {
       height: 95vh;
     }
@@ -1279,7 +1307,7 @@ h3 {
 
 p {
   font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.625;
 }
 
