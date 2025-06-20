@@ -12,7 +12,7 @@ const home = () => {
  web applications. Collaborates well with teams to deliver efficient and
  quality-driven solutions. Committed to clean code, performance, and
  continuous learning in development. "
-          buttonLink="View Detail"
+          // buttonLink="View Detail"
         />
       </div>
     </>
