@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { useRouter } from "next/navigation";
+import { useRouter } from 'next/navigation';
 import "@/component/Card/card.css";
 import "@/app/globals.css";
 import Accordion from "@/component/AccordionItem/Accordion";
@@ -10,10 +10,11 @@ import SubmissionHeatmap from "@/component/SubmissionHeatmap";
 type CardProps = {
   name: string;
   description: string;
+  buttonLink: string;
 };
 
-const Card: React.FC<CardProps> = ({ name, description}) => {
-   const router = useRouter(); // ✅ Now inside the component
+const Card: React.FC<CardProps> = ({ name, description, buttonLink }) => {
+  const router = useRouter();
   const projectTitle = [
     {
       
@@ -48,12 +49,13 @@ const Card: React.FC<CardProps> = ({ name, description}) => {
           <h3 className="text-xl font-semibold text-gray-900">{name}</h3>
           <p className="text-gray-700">{description}</p>
           <div className="card-view-like">
+            
             <button
-  onClick={() => router.push("/about")}
-  className="mt-3 inline-block px-4 py-2 text-white bg-[#171717] text-[12px] rounded hover:brightness-110 transition w-[6rem] cursor-pointer"
->
-  View Link
-</button>
+              onClick={() => router.push(buttonLink)}
+              className="mt-3 inline-block px-4 py-2 text-white bg-[#171717] text-[12px] rounded hover:brightness-110 transition w-[6rem]"
+            >
+              View Link
+            </button>
           </div>
         </div>
 
