@@ -12,7 +12,7 @@ type CardProps = {
   description: string;
 };
 
-const Card: React.FC<CardProps> = ({ name, description, buttonLink }) => {
+const Card: React.FC<CardProps> = ({ name, description}) => {
    const router = useRouter(); // ✅ Now inside the component
   const projectTitle = [
     {
