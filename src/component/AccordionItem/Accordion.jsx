@@ -113,47 +113,49 @@ const Accordion = () => {
     setOpenIndex(openIndex === index ? null : index);
   };
   const items = [
-   {
-  title: "Portfolio",
-  content: (
-    <>
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 items-start">
-        {/* Image */}
-        <div className="flex justify-center lg:justify-start">
-          <Image
-            src={Portfolio}
-            alt="project Img"
-            className="w-full max-w-[250px] h-auto"
-          />
-        </div>
-
-        {/* Summary Paragraph */}
-        <div>
-          <p className="text-gray-600 text-sm lg:text-[16px] leading-relaxed">
-Built a portfolio using Next.js.
-  Used server-side rendering, dynamic routing.
-  Styled with Tailwind CSS for consistency.
-  Stored form data using SQL database.          </p>
-        </div>
-      </div>
-    </>
-  ),
-},
-
-
     {
-      title: "CRM (Customer Relationship Management)",
+      title: "Portfolio",
       content: (
         <>
-        <p className="mt-2 pl-5 text-gray-600 text-sm lg:text-[16px] leading-relaxed">
-  Designed and developed a custom CRM system to digitize manual sales, operations,
-  and accounting workflows. Replaced traditional paper-based processes (form filling,
-  lead tracking, etc.) with a centralized digital platform. Used React.js for the
-  front-end, .NET APIs for backend logic, and SQL Server for data storage. Improved
-  lead source visibility, task tracking, and department efficiency through automation
-  and real-time updates. Enhanced internal team productivity by reducing manual errors
-  and streamlining cross-department collaboration.
-</p>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 items-start">
+            {/* Image */}
+            <div className="flex justify-center lg:justify-start">
+              <Image
+                src={Portfolio}
+                alt="project Img"
+                className="w-full max-w-[250px] h-auto"
+              />
+            </div>
+
+            {/* Summary Paragraph */}
+            <div>
+              <p className="text-gray-600 text-sm lg:text-[16px] leading-relaxed">
+                Built a portfolio using Next.js. Used server-side rendering,
+                dynamic routing. Styled with Tailwind CSS for consistency.
+                Stored form data using SQL database.{" "}
+              </p>
+            </div>
+          </div>
+        </>
+      ),
+    },
+
+    {
+      title: "CRM",
+      content: (
+        <>
+          <p className="mt-2 pl-5 text-gray-600 text-sm lg:text-[16px] leading-relaxed">
+            Designed and developed a custom CRM (Customer Relationship
+            Management) system to digitize manual sales, operations, and
+            accounting workflows. Replaced traditional paper-based
+            processes—such as form filling and lead tracking—with a centralized
+            digital platform. Utilized React.js for the front-end, .NET APIs for
+            backend logic, and SQL Server for data storage. Improved lead source
+            visibility, task tracking, and departmental efficiency through
+            automation and real-time updates. Significantly enhanced team
+            productivity by reducing manual errors and streamlining
+            cross-department collaboration.
+          </p>
         </>
       ),
     },
@@ -162,24 +164,24 @@ Built a portfolio using Next.js.
       content: (
         <>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 items-start">
-        {/* Image */}
-        <div className="flex justify-center lg:justify-start">
-          <Image
-            src={Portfolio}
-            alt="project Img"
-            className="w-full max-w-[250px] h-auto"
-          />
-        </div>
+            {/* Image */}
+            <div className="flex justify-center lg:justify-start">
+              <Image
+                src={Portfolio}
+                alt="project Img"
+                className="w-full max-w-[250px] h-auto"
+              />
+            </div>
 
-        {/* Summary Paragraph */}
-        <div>
-          <p className="text-gray-600 text-sm lg:text-[16px] leading-relaxed">
-Built a portfolio using Next.js.
-  Used server-side rendering, dynamic routing.
-  Styled with Tailwind CSS for consistency.
-  Stored form data using SQL database.          </p>
-        </div>
-      </div>
+            {/* Summary Paragraph */}
+            <div>
+              <p className="text-gray-600 text-sm lg:text-[16px] leading-relaxed">
+                Built a portfolio using Next.js. Used server-side rendering,
+                dynamic routing. Styled with Tailwind CSS for consistency.
+                Stored form data using SQL database.{" "}
+              </p>
+            </div>
+          </div>
         </>
       ),
     },
