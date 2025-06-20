@@ -534,6 +534,10 @@
     rotate: 180deg;
   }
 
+  .cursor-pointer {
+    cursor: pointer;
+  }
+
   .list-inside {
     list-style-position: inside;
   }
