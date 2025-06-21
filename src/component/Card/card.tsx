@@ -52,7 +52,7 @@ const Card: React.FC<CardProps> = ({ name, description, buttonLink }) => {
             
             <button
               onClick={() => router.push(buttonLink)}
-              className="mt-3 inline-block px-4 py-2 text-white bg-[#171717] text-[12px] rounded hover:brightness-110 transition w-[6rem]"
+              className="mt-3 inline-block px-4 py-2 text-white bg-[#171717] text-[12px] rounded hover:brightness-110 transition w-[6rem] cursor-pointer"
             >
               View Link
             </button>
