@@ -24,7 +24,7 @@ const Sidebar = () => {
   lg:shadow-[5px_5px_10px_#d1d9e6,_-5px_-5px_10px_#ffffff] lg:pt-[15px]"
       >
         <Link
-          href="/Home"
+          href="/home"
           className="hover:text-blue-400 flex items-center gap-2 
         lg:rounded-[17px] lg:p-[3px] lg:shadow-[5px_5px_10px_#d1d9e6,_-5px_-5px_10px_#fff] text-base"
         >
@@ -32,7 +32,7 @@ const Sidebar = () => {
         </Link>
 
         <Link
-          href="/Home"
+          href="/home"
           className="hover:text-blue-400 flex items-center gap-2 
         lg:rounded-[17px] lg:p-[3px] lg:shadow-[5px_5px_10px_#d1d9e6,_-5px_-5px_10px_#fff] text-base"
         >
@@ -72,6 +72,7 @@ const Sidebar = () => {
         >
           <FaLinkedin />
         </a>
+
       </nav>
     </aside>
   );
