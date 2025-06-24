@@ -46,6 +46,8 @@
     --color-lime-400: oklch(84.1% .238 128.85);
     --color-lime-600: oklch(64.8% .2 131.684);
     --color-blue-400: oklch(70.7% .165 254.624);
+    --color-blue-600: oklch(54.6% .245 262.881);
+    --color-blue-700: oklch(48.8% .243 264.376);
     --color-gray-50: oklch(98.5% .002 247.839);
     --color-gray-100: oklch(96.7% .003 264.542);
     --color-gray-200: oklch(92.8% .006 264.531);
@@ -679,6 +681,10 @@
     background-color: var(--color-black);
   }
 
+  .bg-blue-600 {
+    background-color: var(--color-blue-600);
+  }
+
   .bg-gray-50 {
     background-color: var(--color-gray-50);
   }
@@ -946,6 +952,12 @@
   .duration-200 {
     --tw-duration: .2s;
     transition-duration: .2s;
+  }
+
+  @media (hover: hover) {
+    .hover\:bg-blue-700:hover {
+      background-color: var(--color-blue-700);
+    }
   }
 
   @media (hover: hover) {

@@ -1,11 +1,10 @@
 "use client";
 import React from "react";
-import { useRouter } from 'next/navigation';
+import { useRouter } from "next/navigation";
 import "@/component/Card/card.css";
 import "@/app/globals.css";
 import Accordion from "@/component/AccordionItem/Accordion";
 import SubmissionHeatmap from "@/component/SubmissionHeatmap";
-
 
 type CardProps = {
   name: string;
@@ -17,7 +16,6 @@ const Card: React.FC<CardProps> = ({ name, description, buttonLink }) => {
   const router = useRouter();
   const projectTitle = [
     {
-      
       title: "blog-webapplication",
       description:
         "A blog web application built with Next.js, designed for fast performance and easy content management. It features dynamic routing, SEO optimization, and a modern user interface to deliver a seamless reading and publishing experience.",
@@ -34,7 +32,8 @@ const Card: React.FC<CardProps> = ({ name, description, buttonLink }) => {
     },
     {
       title: "task-manager",
-      description:"A task management web application built with Next.js, designed to help users efficiently organize, track, and manage their daily tasks. It features dynamic routing, a responsive user interface with Tailwind CSS, and real-time interactions powered by Node.js. The app supports task creation, editing, status updates, and intuitive filtering for improved productivity.",
+      description:
+        "A task management web application built with Next.js, designed to help users efficiently organize, track, and manage their daily tasks. It features dynamic routing, a responsive user interface with Tailwind CSS, and real-time interactions powered by Node.js. The app supports task creation, editing, status updates, and intuitive filtering for improved productivity.",
       languages: "next.js",
       star: 1,
     },
@@ -49,13 +48,18 @@ const Card: React.FC<CardProps> = ({ name, description, buttonLink }) => {
           <h3 className="text-xl font-semibold text-gray-900">{name}</h3>
           <p className="text-gray-700">{description}</p>
           <div className="card-view-like">
-            
-            <button
+            <a
+              href={buttonLink}
+              className="mt-3 inline-block px-4 py-2 text-white bg-[#171717] text-[12px] rounded hover:brightness-110 transition w-[6rem] cursor-pointer"
+            >
+              View Detail
+            </a>
+            {/* <button
               onClick={() => router.push(buttonLink)}
               className="mt-3 inline-block px-4 py-2 text-white bg-[#171717] text-[12px] rounded hover:brightness-110 transition w-[6rem] cursor-pointer"
             >
               View Link
-            </button>
+            </button> */}
           </div>
         </div>
 
