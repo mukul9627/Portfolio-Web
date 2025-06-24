@@ -1,6 +1,5 @@
 "use client";
 import React from "react";
-import { useRouter } from "next/navigation";
 import "@/component/Card/card.css";
 import "@/app/globals.css";
 import Accordion from "@/component/AccordionItem/Accordion";
@@ -13,7 +12,6 @@ type CardProps = {
 };
 
 const Card: React.FC<CardProps> = ({ name, description, buttonLink }) => {
-  const router = useRouter();
   const projectTitle = [
     {
       title: "blog-webapplication",
@@ -54,12 +52,6 @@ const Card: React.FC<CardProps> = ({ name, description, buttonLink }) => {
             >
               View Detail
             </a>
-            {/* <button
-              onClick={() => router.push(buttonLink)}
-              className="mt-3 inline-block px-4 py-2 text-white bg-[#171717] text-[12px] rounded hover:brightness-110 transition w-[6rem] cursor-pointer"
-            >
-              View Link
-            </button> */}
           </div>
         </div>
 
