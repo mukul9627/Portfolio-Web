@@ -7427,11 +7427,7 @@ class Router {
                     });
                     return new Promise(()=>{});
                 }
-<<<<<<< HEAD
-                const routerFilterSValue = ("TURBOPACK compile-time value", JSON.parse('{"numItems":5,"errorRate":0.0001,"numBits":96,"numHashes":14,"bitArray":[1,0,0,0,0,1,0,0,0,1,1,1,0,0,0,0,0,1,1,1,0,1,0,1,1,1,1,1,1,0,0,0,1,1,0,0,1,1,1,0,1,1,1,1,0,0,1,1,0,0,0,0,1,0,0,0,1,1,1,1,1,0,1,1,0,1,0,1,0,1,0,1,1,0,1,1,0,1,1,0,0,0,1,1,1,0,0,1,1,0,1,0,1,1,1,1]}'));
-=======
-                const routerFilterSValue = ("TURBOPACK compile-time value", JSON.parse('{"numItems":4,"errorRate":0.0001,"numBits":77,"numHashes":14,"bitArray":[0,0,1,1,0,1,0,0,1,1,1,0,1,0,1,1,0,1,0,1,1,1,1,1,0,0,0,1,1,0,0,0,0,1,1,1,1,1,0,0,0,1,0,1,0,1,1,0,1,0,1,0,1,0,1,0,1,1,1,1,0,1,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0]}'));
->>>>>>> parent of 31d3926 (handle routing)
+                const routerFilterSValue = ("TURBOPACK compile-time value", JSON.parse('{"numItems":6,"errorRate":0.0001,"numBits":116,"numHashes":14,"bitArray":[0,0,0,1,1,0,1,0,1,1,0,1,1,0,0,1,0,1,0,1,0,0,1,1,1,1,0,1,1,0,1,0,0,1,1,0,1,1,1,0,1,1,1,1,1,1,0,0,0,1,1,0,1,0,1,0,1,0,0,1,1,0,1,0,0,1,1,1,1,1,1,0,1,0,1,0,1,0,0,0,1,0,0,0,1,1,0,1,0,1,0,0,0,1,0,0,1,1,0,0,0,1,1,0,0,1,0,1,0,0,1,1,0,0,1,0]}'));
                 if (!staticFilterData && routerFilterSValue) {
                     staticFilterData = routerFilterSValue ? routerFilterSValue : undefined;
                 }

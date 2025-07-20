@@ -6,22 +6,6 @@ import Portfolio from "@/myImage/portfolio.png";
 
 const AccordionItem = ({ title, content, index, isOpen, toggleOpen }) => (
   <div>
-    {/* <svg
-  xmlns="http://www.w3.org/2000/svg"
-  viewBox="0 0 24 24"
-  width="24"
-  height="24"
-  fill="none"
-  stroke="currentColor"
-  strokeWidth="2"
-  strokeLinecap="round"
-  strokeLinejoin="round"
-  className="text-gray-800 relative top-[2.8rem]"
->
-  <polyline points="16 18 22 12 16 6" />
-  <polyline points="8 6 2 12 8 18" />
-</svg> */}
-
     <h2>
       <button
         type="button"
@@ -57,10 +41,10 @@ const AccordionItem = ({ title, content, index, isOpen, toggleOpen }) => (
                 <svg
                   stroke="currentColor"
                   fill="none"
-                  stroke-width="2"
+                  strokeWidth="2"
                   viewBox="0 0 24 24"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   className="h-4 w-4 mr-1"
                   height="1em"
                   width="1em"

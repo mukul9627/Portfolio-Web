@@ -4,6 +4,7 @@ import "@/component/Card/card.css";
 import "@/app/globals.css";
 import Accordion from "@/component/AccordionItem/Accordion";
 import SubmissionHeatmap from "@/component/SubmissionHeatmap";
+import ContactUs from "@/component/Contact/contactUs";
 
 type CardProps = {
   name: string;
@@ -74,7 +75,7 @@ const Card: React.FC<CardProps> = ({ name, description, buttonLink }) => {
               <svg
                 stroke="currentColor"
                 fill="currentColor"
-                stroke-width="0"
+                strokeWidth="0"
                 viewBox="0 0 496 512"
                 className="mr-1"
                 height="1em"
@@ -102,7 +103,7 @@ const Card: React.FC<CardProps> = ({ name, description, buttonLink }) => {
                       <svg
                         stroke="currentColor"
                         fill="currentColor"
-                        stroke-width="0"
+                        strokeWidth="0"
                         viewBox="0 0 24 24"
                         height="1em"
                         width="1em"
@@ -168,8 +169,14 @@ const Card: React.FC<CardProps> = ({ name, description, buttonLink }) => {
               <Accordion />
             </div>
           </div>
+
         </div>
       </section>
+<div>
+<ContactUs/>
+</div>
+
+
     </>
   );
 };
