@@ -46,7 +46,6 @@
 
 @layer theme {
   :root, :host {
-    --color-red-500: oklch(63.7% .237 25.331);
     --color-red-600: oklch(57.7% .245 27.325);
     --color-lime-200: oklch(93.8% .127 124.321);
     --color-lime-400: oklch(84.1% .238 128.85);
@@ -286,14 +285,6 @@
 @layer utilities {
   .fixed {
     position: fixed;
-  }
-
-  .relative {
-    position: relative;
-  }
-
-  .top-\[2\.8rem\] {
-    top: 2.8rem;
   }
 
   .bottom-0 {
@@ -745,10 +736,6 @@
 
   .bg-lime-600 {
     background-color: var(--color-lime-600);
-  }
-
-  .bg-red-500 {
-    background-color: var(--color-red-500);
   }
 
   .bg-transparent {
