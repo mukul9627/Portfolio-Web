@@ -3,6 +3,7 @@ import "@/component/AccordionItem/accordion.css";
 import Image from "next/image";
 // import { CodeBracketIcon } from '@heroicons/react/24/solid';
 import Portfolio from "@/myImage/portfolio.png";
+import GTT from "@/myImage/GrabThatTrip_Colour.svg";
 
 const AccordionItem = ({ title, content, index, isOpen, toggleOpen }) => (
   <div>
@@ -143,32 +144,36 @@ const Accordion = () => {
         </>
       ),
     },
-    {
-      title: "Web Application",
-      content: (
-        <>
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 items-start">
-            {/* Image */}
-            <div className="flex justify-center lg:justify-start">
-              <Image
-                src={Portfolio}
-                alt="project Img"
-                className="w-full max-w-[250px] h-auto"
-              />
-            </div>
+   {
+  title: "Grab That Trip",
+  content: (
+    <>
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 items-start">
+        {/* Image */}
+        <div className="flex justify-center lg:justify-start">
+          <Image
+            src={GTT}
+            alt="Grab That Trip project"
+            className="w-full max-w-[250px] h-auto"
+          />
+        </div>
 
-            {/* Summary Paragraph */}
-            <div>
-              <p className="text-gray-600 text-sm lg:text-[16px] leading-relaxed">
-                Built a portfolio using Next.js. Used server-side rendering,
-                dynamic routing. Styled with Tailwind CSS for consistency.
-                Stored form data using SQL database.{" "}
-              </p>
-            </div>
-          </div>
-        </>
-      ),
-    },
+        {/* Summary */}
+        <div>
+          <p className="text-gray-600 text-sm lg:text-[16px] leading-relaxed">
+            Grab That Trip is a tour package provider web application built
+            using Next.js. The project features dynamic routing and
+            SEO-friendly pages to improve discoverability. Responsive
+            package listing and detail pages were developed using Bootstrap,
+            along with validated inquiry and booking forms to enhance user
+            engagement and overall experience.
+          </p>
+        </div>
+      </div>
+    </>
+  ),
+}
+
   ];
 
   return (

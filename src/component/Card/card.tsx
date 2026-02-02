@@ -26,13 +26,22 @@ const Card: React.FC<CardProps> = ({ name, description, buttonLink }) => {
       title: "portfolio-site",
       description:
         "A personal portfolio website built using Next.js, Node.js, and Tailwind CSS. It showcases projects, skills, and achievements with a fast, responsive, and modern user interface. The site is optimized for SEO, features smooth navigation with dynamic routing, and is designed for easy customization and scalability.",
-      languages: "next.js",
+      languages: "next.js, Tailwind",
       star: 1,
     },
     {
-      title: "task-manager",
+      href: "https://www.grabthattrip.com/",
+      title: "Grab That Trip",
       description:
-        "A task management web application built with Next.js, designed to help users efficiently organize, track, and manage their daily tasks. It features dynamic routing, a responsive user interface with Tailwind CSS, and real-time interactions powered by Node.js. The app supports task creation, editing, status updates, and intuitive filtering for improved productivity.",
+        "A tour package provider web application built with Next.js, offering SEO-friendly pages and dynamic routing for destination and package details. The platform features responsive layouts using Bootstrap, intuitive navigation, and validated inquiry and booking forms to enhance user engagement and lead generation.",
+      languages: "Next.js, Bootstrap",
+      star: 1,
+    },
+    {
+       href: "https://erp.dbbworldwide.com/",
+      title: "CRM",
+      description:
+        "Designed and developed a custom CRM (Customer Relationship Management) system to digitize manual sales, operations, and accounting workflows. Replaced traditional paper-based processes—such as form filling and lead tracking—with a centralized digital platform. Utilized React.js for the front-end, .NET APIs for backend logic, and SQL Server for data storage. Improved lead source visibility, task tracking, and departmental efficiency through automation and real-time updates. Significantly enhanced team productivity by reducing manual errors and streamlining cross-department collaboration.",
       languages: "next.js",
       star: 1,
     },
@@ -87,19 +96,20 @@ const Card: React.FC<CardProps> = ({ name, description, buttonLink }) => {
               Trending Repos
             </h2>
 
-            <div className="flex flex-col sm:flex-row gap-6 w-full">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full">
               {projectTitle.map((projectTitle, idx) => (
-                <div
-                  key={idx}
-                  className="p-4 rounded-lg bg-white shadow w-full sm:w-1/3"
+                <a
+                  className="flex items-center"
+                  href={projectTitle.href}
+                  target="_blank"
+                  rel="noreferrer"
                 >
-                  <h4 className="font-semibold tracking-tight text-sm line-clamp-1 flex items-center text-black">
-                    <a
-                      className="flex items-center"
-                      href={projectTitle.href}
-                      target="_blank"
-                      rel="noreferrer"
-                    >
+                  {" "}
+                  <div
+                    key={projectTitle.title}
+                    className="p-4 rounded-lg bg-white shadow w-full"
+                  >
+                    <h4 className="font-semibold tracking-tight text-sm line-clamp-1 flex items-center text-black">
                       <svg
                         stroke="currentColor"
                         fill="currentColor"
@@ -115,34 +125,35 @@ const Card: React.FC<CardProps> = ({ name, description, buttonLink }) => {
                       <span className="line-clamp-1 ml-1 text-xs text-black">
                         {projectTitle.title}
                       </span>
-                    </a>
-                  </h4>
-                  <p className="text-sm text-gray-500 mt-2 leading-snug line-clamp-3">
-                    {projectTitle.description}
-                  </p>
-                  <div className="flex items-center justify-between mt-4">
-                    <div className="rounded-md border py-0.5 px-2 text-xs font-semibold bg-black text-white">
-                      {projectTitle.languages}
-                    </div>
-                    <div className="flex items-center text-black">
-                      <svg
-                        stroke="currentColor"
-                        fill="none"
-                        strokeWidth="2"
-                        viewBox="0 0 24 24"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        className="block w-3.5 h-3.5"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
-                      </svg>
-                      <span className="ml-0.5 text-sm">
-                        {projectTitle.star}
-                      </span>
+                    </h4>
+
+                    <p className="text-sm text-gray-500 mt-2 leading-snug line-clamp-3">
+                      {projectTitle.description}
+                    </p>
+                    <div className="flex items-center justify-between mt-4">
+                      <div className="rounded-md border py-0.5 px-2 text-xs font-semibold bg-black text-white">
+                        {projectTitle.languages}
+                      </div>
+                      <div className="flex items-center text-black">
+                        <svg
+                          stroke="currentColor"
+                          fill="none"
+                          strokeWidth="2"
+                          viewBox="0 0 24 24"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          className="block w-3.5 h-3.5"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                        </svg>
+                        <span className="ml-0.5 text-sm">
+                          {projectTitle.star}
+                        </span>
+                      </div>
                     </div>
                   </div>
-                </div>
+                </a>
               ))}
             </div>
           </div>
@@ -169,14 +180,11 @@ const Card: React.FC<CardProps> = ({ name, description, buttonLink }) => {
               <Accordion />
             </div>
           </div>
-
         </div>
       </section>
-<div>
-<ContactUs/>
-</div>
-
-
+      <div>
+        <ContactUs />
+      </div>
     </>
   );
 };

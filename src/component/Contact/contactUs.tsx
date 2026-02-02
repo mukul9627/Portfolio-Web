@@ -44,7 +44,6 @@ const ContactUs: React.FC = () => {
     <section className="bg-white py-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         <div className="text-left">
-          <h2 className="text-5xl font-bold text-gray-900 mb-4">Let&apos;s chat</h2>
           <p className="text-[20px] font-semibold text-gray-600 mb-4">
             over a biryani or.. a call,
             <br /> email, or even a pigeon post.
