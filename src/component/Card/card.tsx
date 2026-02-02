@@ -6,7 +6,7 @@ import Accordion from "@/component/AccordionItem/Accordion";
 import SubmissionHeatmap from "@/component/SubmissionHeatmap";
 import ContactUs from "@/component/Contact/contactUs";
 
-/* ---------------- TYPES ---------------- */
+/* ---------------- TYPES New ---------------- */
 
 type CardProps = {
   name: string;
